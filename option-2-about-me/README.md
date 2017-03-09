@@ -27,6 +27,10 @@ Your work must:
 
 ---
 
+- [About Me Demo](https://generalassembly-atx.github.io/unit-1-project-demo/index.html)
+
+---
+
 #### Necessary Deliverables
 
 - A working site, built by you, hosted somewhere on the internet.
