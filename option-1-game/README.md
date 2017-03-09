@@ -3,8 +3,7 @@
 ## Overview
 
 For the Unit 1 Project, let's start out with something fun — a game!
-Everyone will get a chance to be creative and work through some tough programming challenges. Now that you've gotten your feet wet with Tic-Tac-Toe, it's up to you to come up with another game to build.
-You will be working individually for this project, but we'll be guiding you throughout the process and helping as you go.
+Everyone will get a chance to be creative and work through some tough programming challenges. You will be working individually for this project, but we'll be guiding you throughout the process and helping as you go.
 
 ---
 
@@ -14,7 +13,7 @@ Your app must:
 - Render a game in the browser.
 - Switch turns between two players.
 - Include logic for winning, and visually indicate which player has won.
-- Include separate HTML/CSS /JavaScript files.
+- Include separate HTML/CSS/JavaScript files.
 - Stick with the KISS (Keep It Simple Stupid) and DRY (Don't Repeat Yourself) principles.
 - Use JavaScript or jQuery for DOM manipulation.
 - Be deployed and accessible online.
@@ -33,12 +32,7 @@ Your app must:
   - Installation instructions.
   - Unsolved problems.
   - Your biggest wins and challenges.
-- A five-slide presentation, to be given in front of classmates, outlining the following points:
-  - The game you chose.
-  - The rules of the game.
-  - Your process for turning that game into a web application (wireframes, blockers/issues that popped up).
-  - Screenshots of actual game play.
-  - Screenshots of the snippets of code you used to solve particularly interesting problems (think code highlights).
+- In-class demo
 
 ***
 
@@ -55,20 +49,6 @@ Don't be afraid to write code you know you'll have to remove later. Create tempo
 >Things To Avoid:
 >- Don't create a game that includes violence, weapons, or gore.
 >- Don't create a game that may offend your classmates or alienate those with specific religious, political, or philosophical views.
-
-***
-
-## Project Timeline
-
-#### Week 2 (Insert Due Date):
-- Pitch your project to the instructional team. This pitch should answer the following questions:
-  - What is your game idea?
-  - What technologies will you need to make the game function?
-
-
-#### Week 3 (Insert Due Date):  
-- In-Class Project Time
-- Project Presentations
 
 ***
 
@@ -91,7 +71,7 @@ Test your knowledge and wits. Guess the answers to trivia questions, and have th
 ***
 
 ## Project Feedback + Evaluation
-- **Project Workflow:** Did you complete the user stories, wireframes, task tracking, and/or ERDs as detailed above? Did you use source control as expected for this phase of the course?
+- **Project Workflow:** Did you use source control as expected for this phase of the course?
 - **Technical Requirements:** Did you deliver a project that met all of the technical requirements? Given what the class has covered so far, did you build an asset that was reasonably complex?
 - **Creativity:** Did you add a personal spin or creative element to your project submission? Did you deliver something of value to the end user (not just a login button and an index page)?
 - **Code Quality:** Did you follow the code style guidance and best practices covered in class for elements such as spacing, modularity, and semantic naming? Did you comment your code like your instructors have in class?
