@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="StyleSheet" href="css/main.css">
+  <script type="text/javascript" src="main.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <title>Barbara Boutette</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav" class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Barbara Boutette</a>
+        </div>
+        <div id="navbar">
+          <ul class="nav navbar-nav" style="border-style:none;">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#bio">About</a></li>
+            <li><a href="www.thisday.io/blog-home">Blog</a></li>
+            <li><a href="mailto:bboutette@gmail.com">Contact</a></li>
+            <li>
+              <span class="linkedinWrapper">
+                <a href="https://www.linkedin.com/pub/barbara-boutette/138/243/431">
+                <span style="font: 80% Arial,sans-serif; color:#0783B6;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="View Barbara Boutette's LinkedIn profile" style="vertical-align:middle;" border="0" border-radius="0">&nbsp;
+                </span>
+              </span>
+              </a>
+            </li>
+            <li>
+              <span class="githubWrapper">
+                <a class="github-button" href="https://github.com/bboutette" data-count-href="/bboutette/followers" data-count-api="/users/bboutette#followers" data-count-label="# followers on GitHub" label="Follow @bboutette on GitHub">Follow @bboutette</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <img src="images/purple-flower.jpg" alt="purple flower" class="splash" class="img-responsive">
+
+    <div class="about-me" class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <img width="300" height="475" style="border-radius: 15px;" class="avatar" src="images/avatar.jpg">
+        </div>
+        <div class="fadeIn">
+        <div class="col-xs-12 col-md-6">
+          <h1>About Me</h1>
+          <div class="about-me-text">
+            For the last eight years, I have been working as a social worker, volunteering for different non-profits, and sometimes working as a musician. It brought together two of my favorite activities: helping people and learning stuff. I am currently pursuing a Masters in Public Health from
+            George Washington University and also in a web development bootcamp at General Assembly. I hope to help more people and make new friends with my new skills, perhaps through open source projects. In my free time, I enjoy hiking with my boyfriend
+            and my dog, singing and playing music, coordinating the<a style="font-weight:800px;" href="https://www.meetup.com/Austin-Esperanto/">The Austin Esperanto Club</a>, and learning to play Naruto from my son.
+          </div>
+        </div>
+
+        <div class="line" style="padding-top: 30px;">
+        </div>
+        <HR WIDTH="60%">
+        </div>
+      </div>
+    </div>
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+
+        <div class="item active">
+          <img src="images/dog-trail.jpg" alt="first slide" class="img-responsive">
+          <div class="header-text hidden-xs">
+            <div class="col-md-12 text-center">
+              <h2>
+                <span>
+                  My dog and I on the trail.
+                </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="images/together2.jpg" alt="second slide" class="img-responsive">
+        </div>
+
+        <div class="item" class="center-img">
+          <img src="images/esperanto.jpg" alt="third slide" class="img-responsive">
+        </div>
+
+        <div class="item" class="center-img">
+          <img src="images/son.jpg" alt="fourth slide" class="img-responsive">
+        </div>
+
+        <div class="item" class="center-img">
+          <img src="images/jacquie.jpg" alt="fifth slide" class="img-responsive">
+        </div>
+
+        <div class="item" class="center-img">
+          <img src="images/dog1.jpg" alt="sixth slide" class="img-responsive">
+        </div>
+      </div>
+    </div>
+
+<!-- Add thumbnails below carousel and carousel text. -->
+
+    <div class="line">
+    <HR WIDTH="60%">
+    </div>
+    <div class="form" class="container">
+      <div>
+        <form action="/my-handling-form-page" method="post">
+          <div>
+            <label for="name">You are:</label>
+            <input type="text" id="name" name="user_name" placeholder="name" />
+            <div>
+              <div>
+                <label for="mail">Subscribe:</label>
+                <input type="email" id="mail" name="user_email" placeholder="email" />
+              </div>
+              <div class="hidden">
+                thank you!
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <div class ="footer">
+    Copyright Barbara Boutette 2017
+  </div>
+</body>
+
+</html>
