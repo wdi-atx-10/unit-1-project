@@ -1,0 +1,409 @@
+.navbar-brand {
+  font-size: 27px;
+  text-transform: uppercase;
+}
+.navbar-nav {
+  float: right;
+}
+
+.navbar-default {
+  background-color: #42ab9e;
+}
+
+.navbar-nav li a {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+/*   Intro Section   */
+
+section {
+  text-align: center;
+}
+
+.intro-section {
+  height: 100%;
+}
+
+#intro {
+    background-color: darkorange;
+    margin: 0px -8px 0px;
+    padding: 130px 0px 0px;
+}
+.content {
+  margin: 0px 165px;
+  padding: 0px 40px;
+
+}
+
+.content img {
+  max-width: 30%;
+  padding-top: 40px;
+}
+
+hr {
+  max-width: 50%;
+  height: 3px;
+  background-color: white;
+  border: aliceblue;
+}
+
+h1 {
+  font-size: -webkit-xxx-large;
+  color: white;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: x-large;
+  color: white;
+  text-transform: uppercase;
+}
+
+h2 {
+
+  color: black;
+  text-transform: uppercase;
+}
+
+#pro-cont hr {
+  max-width: 30%;
+  height: 3px;
+  background-color: black;
+  border: aliceblue;
+}
+
+/*  About Section  */
+
+#about {
+    background-color: darkorange;
+    margin: -33px -8px 0px;
+    padding: 80px 0px 0px;
+  }
+.about-section {
+ height: 57%;
+}
+
+.head h2 {
+  color: white;
+}
+
+.head hr {
+  width: 30%;
+}
+
+.main-content {
+    text-align: left;
+  }
+
+.main-content p{
+    padding: 30px 0px;
+  }
+
+.main-content p:first-child {
+    padding-left: 100px;
+  }
+
+/*  Project Section  */
+.services-section {
+padding-top: 70px;
+}
+
+/* Style the Image Used to Trigger the Modal */
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    z-index: 1
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 65px;
+    right: 65px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+  /* Testimonals Section */
+
+  #Quotes {
+     background-color: darkorange;
+     margin: -23px -8px 0px;
+     padding: 60px 0px 60px;
+   }
+
+.review{
+  padding: 30px 0px 0px;
+  position: relative;
+}
+
+
+.review p {
+    padding: 0px 180px;
+    text-align: left;
+  }
+
+  /* Contact Section */
+  #contact{
+         margin: -23px -8px 0px;
+         padding: 60px 0px 80px;
+       }
+  .contact-section {
+    height: 89%;
+  }
+
+  .contact-form label{
+    margin-left: 230px;
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 63%;
+    margin: 0px 220px 20px;
+    padding: 10px;
+  }
+
+  button {
+    margin-left: 225px;
+    float: left;
+    margin-bottom: 10px;
+    background-color: darkgrey;
+    border: darkgrey;
+    padding: 10px;
+    border-radius: 2px;
+    width: 10%;
+  }
+
+  /* Footer Section*/
+  footer {
+    background-color: #42ab9e;
+    margin: 0px -10px 0px;
+    padding-bottom: 20px;
+  }
+
+  footer p {
+      font-size: 15px;
+      display: inline-block;
+      padding-left: 130px;
+      margin: .25rem 0 0 0;
+  }
+
+  .nav-bar {
+  height: 60px;
+  padding: 30px 15px 0px;
+}
+
+.list  {
+   float: right;
+   padding-right: 140px;
+}
+
+ul {
+  margin: 0px;
+}
+
+.list ul li{
+  display: inline-block;
+  padding: 0px 23px;
+ }
+
+.list ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+  }
+
+/*  Responsive Website*/
+@media (max-device-width: 736px){
+  .navbar-brand{
+    padding-left: 25px;
+  }
+
+  #intro {
+      background-color: darkorange;
+      margin: 0px -22px 0px;
+      padding: 130px 0px 0px;
+  }
+
+  .content {
+    margin: 0px 0px;
+    padding: 0px 40px;
+}
+
+.content img {
+  max-width: 90%;
+  padding-top: 40px;
+}
+
+#about {
+    background-color: darkorange;
+    margin: -33px -22px 0px;
+    padding: 80px 0px 0px;
+}
+
+.about-section {
+    height: 99%;
+}
+
+.main-content p:first-child {
+    padding-left: 0px;
+  }
+
+.services-section {
+    padding-top: 45px;
+}
+
+#Quotes {
+    background-color: darkorange;
+    margin: -23px -22px 0px;
+    padding: 60px 0px 60px;
+}
+
+.review p {
+    padding: 0px 0px
+}
+
+#contact {
+    margin: -3px -22px 0px
+}
+
+.contact-form label{
+  margin-left: 40px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 63%;
+  margin: 0px 60px 20px 0px;
+  padding: 10px;
+}
+
+button {
+  margin-left: 45px;
+  float: left;
+  margin-bottom: 10px;
+  background-color: darkgrey;
+  border: darkgrey;
+  padding: 10px;
+  border-radius: 2px;
+  width: 20%;
+}
+
+footer {
+  background-color: #42ab9e;
+  margin: 0px -22px 0px;
+  padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 15px;
+    display: inline-block;
+    padding-left: 30px;
+    margin: .25rem 0 0 0;
+}
+
+.nav-bar {
+height: 60px;
+padding: 30px 15px 0px;
+}
+
+.list  {
+ float: right;
+ padding-right: 0px;
+}
+
+ul {
+margin: 0px;
+}
+
+.list ul li{
+display: inline-block;
+padding: 0px 23px;
+}
+
+.list ul li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+}

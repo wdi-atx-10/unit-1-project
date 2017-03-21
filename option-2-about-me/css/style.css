@@ -1,0 +1,212 @@
+body {
+  overflow-y: scroll;
+}
+      /*  header section   */
+
+.header {
+  background-color: #42ab9e;
+  margin: 0px -8px;
+  position: fixed;
+  width:101%;
+  z-index: 100;
+}
+
+.nav-bar {
+  height: 60px;
+  padding: 30px 15px 0px;
+}
+
+.logo  {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0px 0px 0px 160px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+nav  {
+   float: right;
+   padding-right: 140px;
+}
+
+ul {
+  margin: 0px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 0px 23px;
+ }
+
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .nav-links a:hover {
+    color: rgb(24, 188, 156);
+  }
+
+  .nav-links {
+  margin-left: auto;
+  display: inline-block;
+}
+
+.nav-links a {
+  margin-left: .6rem;
+  padding: .2em 0;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-links .current {
+  border-bottom: 2px solid rgb(24, 188, 156);
+}
+
+/*  Introduction Section  */
+
+section {
+  text-align: center;
+}
+.intro {
+    background-color: darkorange;
+    margin: -8px -8px 0px;
+    padding: 0px 0px 0px;
+}
+.content {
+  margin: 0px 165px;
+  padding: 0px 40px;
+
+}
+
+.content img {
+  max-width: 30%;
+  padding-top: 40px;
+}
+
+hr {
+  max-width: 50%;
+  height: 3px;
+  background-color: white;
+  border: aliceblue;
+}
+
+h1 {
+  font-size: -webkit-xxx-large;
+  color: white;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: x-large;
+  color: white;
+  text-transform: uppercase;
+}
+
+h2 {
+
+  color: black;
+  text-transform: uppercase;
+}
+
+#pro-cont hr {
+  max-width: 30%;
+  height: 3px;
+  background-color: black;
+  border: aliceblue;
+}
+ /*  About section  */
+
+.about {
+    background-color: darkorange;
+    margin: -33px -8px 0px;
+    padding: 80px 0px 20px;
+  }
+
+.head h2 {
+  color: white;
+}
+
+.head hr {
+  width: 30%;
+}
+
+.main-content {
+    display: flex;
+    text-align: left;
+  }
+
+.main-content p{
+    padding: 30px 40px;
+  }
+
+.main-content p:first-child {
+    padding-left: 100px;
+  }
+/* Project section*/
+
+.project {
+  margin: 40px;
+}
+ /* Testimonals secton */
+
+.testimonals {
+     background-color: darkorange;
+     margin: -23px -8px 0px;
+     padding: 60px 0px 20px;
+   }
+
+.review{
+  padding: 30px 0px 0px;
+  position: relative;
+}
+
+
+.review p {
+    padding: 0px 180px;
+    text-align: left;
+  }
+
+/* Contact Section */
+.contact{
+       margin: -23px -8px 0px;
+       padding: 60px 0px 80px;
+     }
+
+.contact-form label{
+  margin-left: 230px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 63%;
+  margin: 0px 220px 20px;
+  padding: 10px;
+}
+
+button {
+  margin-left: 225px;
+  float: left;
+  margin-bottom: 10px;
+  background-color: darkgrey;
+  border: darkgrey;
+  padding: 10px;
+  border-radius: 2px;
+  width: 10%;
+}
+
+/* Footer Section*/
+footer {
+  background-color: #42ab9e;
+  margin: 25px -10px 0px;
+}
+
+footer p {
+    font-size: .75rem;
+    display: inline-block;
+    margin: .25rem 0 0 0;
+}
