@@ -1,0 +1,139 @@
+body {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+/*Top & Navbar*/
+#top {
+  font-size: 24px;
+  background-color: black;
+
+}
+.navbar-right li {
+  padding-top:20px;
+}
+
+
+.navbar-default {
+  background-color: black;
+  border: none;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #DB94F4;
+  background-color: transparent;
+}
+.navbar-default .navbar-text {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #DB94F4;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #DB94F4;
+  background-color: #080808;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border-color: #333;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #DB94F4;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #101010;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #DB94F4;
+  background-color: #080808;
+}
+
+
+
+/*Section - about me*/
+
+.about {
+  background-color: #fff;
+  padding: 10px;
+  font-size: 18px;
+
+}
+
+.selfie {
+  border: solid black 3px;
+  max-width: 80%;
+  height: auto;
+}
+
+/*section - carousel photos*/
+
+.carousel-photos {
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+
+
+#nameLogo {
+  font-size: 40px;
+  color: #fff;
+}
+
+#photos {
+  padding: 6px;
+}
+
+.carousel {
+  width: 60%;
+  margin: auto;
+
+}
+
+/*section - Quotes*/
+.quotes {
+  padding: 30px;
+}
+blockquote{
+  border: none;
+}
+
+.my-quote {
+  display: none;
+  margin: auto;
+}
+
+/*section - contact me*/
+.contact-me {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+}
+.meow-img {
+  border: white 3px solid;
+    max-width: 80%;
+    height: auto;
+}
